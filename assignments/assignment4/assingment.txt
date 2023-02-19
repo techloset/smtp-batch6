@@ -1,0 +1,12 @@
+Assignment#04
+Dear Students
+Web and Mobile Application Development, Batch-06
+Requirements:
+1- Please create the exactly same blog from figma file
+2- Please deploy into surge, and create online link
+3- Submit the assignment at link below
+4- use the assets from figma file link: https://www.figma.com/file/SnBN6lDEtTeiBkDtYp2Kou/assignment3?node-id=0%3A1&t=se3f17zByk72buMZ-1
+Deadline: 16/01/2023! 
+Submit: https://forms.gle/eoTvdfD1dnHgKRRBA
+Regards
+Naveed Sarwar

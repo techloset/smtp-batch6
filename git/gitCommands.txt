@@ -1,0 +1,20 @@
+First time
+1- create account on github.com
+2- download github from website
+3- run below commands
+   -> git config --global user.name "your name"
+   -> git config --global user.email "your email"
+
+every new project
+1- create repo on your github create by clicking new button
+2- git clone / git init
+   -> git clone repolink
+   or
+   -> git init
+   -> git remote add origin repoLink
+
+every time when new changes comes in single project:
+-> git add -A
+-> git commit -m "messsage commit"
+-> git push origin branchName
+
