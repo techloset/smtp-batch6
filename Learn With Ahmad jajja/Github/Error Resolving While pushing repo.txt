@@ -1,0 +1,22 @@
+Github Error: Permission denied (publickey) 
+
+Solution: 
+
+01) run following command in "Git Bash Terminal" to generating public/private key
+	ssh-keygen -t ed25519 -C "email"
+
+02) goto the specific location of public/private key file
+
+03) open "Git Bash Terminal" in this public/private file location and run, then you'll see private key address there
+	cat id_rsa.pub
+
+04) Copy this private key address and goto github setting 
+	setting link: https://github.com/settings/keys
+
+05) Click on new ssh key
+	a) write there title in input title field
+	b) paste there private key address in key input field
+
+06) Click on ADD SSH Key
+
+07) Congrats! you're done.

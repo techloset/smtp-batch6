@@ -1,0 +1,39 @@
+/* body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold; 
+}
+     h1 {
+        font-weight: bolder;
+        font-family: 'Courier New', Courier, monospace;
+}
+    h2 {
+        font-weight: 800;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+#p1{
+    /* font-weight: bold;
+    font-size: 40px; */
+    text-transform: capitalize;
+    text-align:justify
+}
+#p2{
+    /* font-weight: bolder;
+    font-size: larger; */
+    text-transform: lowercase;
+    text-align: end;
+}
+#p3{
+    /* font-weight: lighter;
+    font-size: medium; */
+    text-transform: uppercase;
+    text-align: center;
+}
+#p4{
+    /* font-weight: 800;
+    font-size: 5rem; */
+    /* text-transform: initial; */
+    text-align: right;
+
+}
