@@ -1,0 +1,15 @@
+To setup Node.js on your laptop for running .js files, you can follow these steps:
+
+01) Go to the Node.js website (https://nodejs.org) and download the appropriate version of Node.js for your operating system.
+
+02) Run the installer and follow the prompts to install Node.js on your computer.
+
+03) Open a new terminal window or command prompt and type node -v to check that Node.js is installed correctly. You should see the version number of Node.js printed to the terminal.
+
+04) Create a new file with a .js extension and write some JavaScript code in the file.
+
+05) In the terminal, navigate to the directory where your .js file is located using the cd command.
+
+06) Type node <filename>.js in the terminal, where <filename> is the name of your JavaScript file, and press Enter. This will execute your JavaScript code in the Node.js runtime environment.
+
+				That's it! You should now be able to run .js files using Node.js on your laptop.
