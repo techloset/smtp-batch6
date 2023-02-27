@@ -1,0 +1,15 @@
+Assignment#06
+
+Dear Students / Brothers.
+Web and Mobile Batch06
+
+Requirements:
+
+1- Please create pixel perfect web app from figma below
+2- figma https://www.figma.com/file/uLpRjflkytRbjRIoXwqBJm/FoodWagon-Food-Delivery-Landing-Template-by-ThemeWagon-(Community)?node-id=342%3A144&t=UFn1TE9qUyGBbM9V-1.
+3- Please deploy into surge, and create online link
+4- Submit the assignment at link below
+sadf
+Deadline: 28/02/2023!
+
+Submit: https://forms.gle/k7mV4UzmLX8NKKMP7
