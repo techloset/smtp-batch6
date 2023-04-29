@@ -21,7 +21,7 @@ var students = [];
 
 function addUser() {
     students[students.length] = document.getElementById("userName").value
-    printStudents()
+
 }
 
 
