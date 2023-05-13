@@ -1,0 +1,25 @@
+Task Name: HTML Form Input and Display
+
+Task Description:
+In this task, you will create a simple web page with an HTML form that takes input from the user and uses JavaScript to display the input in HTML tags.
+
+Requirements:
+
+Create an HTML form with at least three input fields (e.g., name, email, phone number) and a submit button.
+Use JavaScript to capture the user's input when they submit the form.
+Create an object in JavaScript to store the user's input as properties with corresponding values.
+Use JavaScript to display the user's input in HTML tags on the same web page (e.g., display the user's name in an h1 tag, their email in a p tag, and their phone number in a span tag).
+Use loops and basic JavaScript concepts (e.g., if statements, functions) to validate the user's input before displaying it in HTML tags. For example, check that the user's email address is in a valid format.
+Hints:
+
+You can use the document.getElementById() method to get the value of an HTML input element.
+You can use the document.createElement() method to create new HTML tags.
+You can use the document.appendChild() method to add HTML tags to the web page.
+You can use for...in loops to iterate over the properties of an object.
+You can use the typeof operator to check the data type of a variable.
+Challenge:
+If you complete the requirements above within 30 minutes, try adding the following additional features to your web page:
+
+Use an array in JavaScript to store the user's input as multiple objects.
+Use a function in JavaScript to display the user's input in HTML tags.
+Use an if statement in JavaScript to display different HTML tags based on the user's input (e.g., display a success message if the form was submitted successfully, or an error message if there was an error with the user's input).
