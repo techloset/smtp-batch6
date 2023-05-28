@@ -49,7 +49,10 @@
 // var numbers2 = []
 
 // var forEachVar = numbers.forEach((element, index, fullArray) => {
-//     // numbers2.push(element * 2)
+//  if (index < 3) {
+     // numbers2.push(element * 2)
+// }    
+// 
 //     console.log('====================================');
 //     console.log("element in arrow function", element);
 //     console.log('====================================');
