@@ -1,0 +1,11 @@
+
+Assignment8
+- Convert assignment number 5 and 6 to the reactjs application
+- Make sure it's responsive
+- Covert attached folder as well responsive-halloween-website-main
+
+- Upload the reactjs application in github repo submit the link below form
+
+Deadline: 15/07/2023
+
+Submit at: 

@@ -25,7 +25,7 @@ function Header() {
                                     something new, building my own bike with parts made only in Malaysia.
                                 </p>
 
-                                <Button/>
+                                <Button title="Book Now"/>
                             </div>
                         </div>
                     </section>
