@@ -1,0 +1,9 @@
+Write a js program, that take password as html input and
+ password should ensure following rules:
+- password should be more than 8 char
+- password should contain at least one capital letters
+- password should contain at least one small letter
+- password should contain at least one number
+e.g Test234221
+note: show result on screen if any error or wrong password
+ and also print password is correct

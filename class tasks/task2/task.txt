@@ -1,0 +1,5 @@
+write a js program, that's calculate
+reminder without using % operator
+e.g
+9/5 => 4
+3/2 => 1

@@ -1,0 +1,9 @@
+
+Assignment9
+- Convert figma https://www.figma.com/file/IN9dgklBqdt7CTXdI645ni/NFT-Landing-Page?type=design&node-id=0-1&mode=design into react application
+- Make sure it's responsive
+- Upload the reactjs application in github repo submit the link below form
+
+Deadline: 23/07/2023
+
+Submit at: https://forms.gle/fBM6CCGGNY72ZarX8
