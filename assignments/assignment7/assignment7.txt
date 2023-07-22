@@ -1,19 +1,46 @@
-Password Strength Checker: Create a program that takes a password input from the user and checks its strength based on criteria such as length, use of special characters, uppercase and lowercase letters, and numbers. The program should then display the strength rating on the webpage.
+Assignment#07
 
-Palindrome Checker: Create a program that takes a string input from the user and checks if it is a palindrome (i.e., the string reads the same forwards and backwards). The program should then display the result on the webpage.
+Dear Students,
+Web and Mobile Batch06
 
-Image Carousel: Create an image carousel that allows the user to click on buttons to move between images. You can use an array of image URLs and an index variable to keep track of the current image being displayed.
+Requirement: Please complete the programs below in js, and create repo and submit in the google form
 
-Random Number Guessing Game: Create a program that generates a random number between 1 and 100 and asks the user to guess the number. The program should provide feedback to the user on whether their guess is too high or too low and keep track of the number of attempts. Once the user guesses the correct number, the program should display the number of attempts on the webpage.
+1. Write a js program to find maximum between two numbers.
+2. Write a js program to find maximum between three numbers.
+3. Write a js program to check whether a number is negative, positive or zero.
+4. Write a js program to check whether a number is divisible by 5 and 11 or not.
+5. Write a js program to check whether a number is even or odd.
+6. Write a js program to check whether a year is leap year or not.
+7. Write a js program to check whether a character is alphabet or not.
+8. Write a js program to input any alphabet and check whether it is vowel or consonant.
+9. Write a js program to input any character and check whether it is alphabet, digit or special character.
+10. Write a js program to check whether a character is uppercase or lowercase alphabet.
+11. Write a js program to input week number and print week day.
+12. Write a js program to input month number and print number of days in that month.
+13. Write a js program to count total number of notes in given amount.
+14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
+15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
+16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
+17. Write a js program to find all roots of a quadratic equation.
+18. Write a js program to calculate profit or loss.
+19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+Percentage >= 90% : Grade A
+Percentage >= 80% : Grade B
+Percentage >= 70% : Grade C
+Percentage >= 60% : Grade D
+Percentage >= 40% : Grade E
+Percentage < 40% : Grade F
+20. Write a js program to input basic salary of an employee and calculate its Gross salary according to following:
+Basic Salary <= 10000 : HRA = 20%, DA = 80%
+Basic Salary <= 20000 : HRA = 25%, DA = 90%
+Basic Salary > 20000 : HRA = 30%, DA = 95%
+21. Write a js program to input electricity unit charges and calculate total electricity bill according to the given condition:
+For first 50 units Rs. 0.50/unit
+For next 100 units Rs. 0.75/unit
+For next 100 units Rs. 1.20/unit
+For unit above 250 Rs. 1.50/unit
+An additional surcharge of 20% is added to the bill
 
-Text Adventure Game: Create a text adventure game that takes input from the user on what action to take next and displays the results on the webpage. You can use objects to represent the game world and keep track of the user's current location, inventory, and other game state.
+Deadline: 05/04/2023!
 
-Morse Code Translator: Create a program that takes a text input from the user and translates it into Morse code. You can use an object to map each letter of the alphabet to its corresponding Morse code representation and display the translated text on the webpage.
-
-Hangman Game: Create a program that generates a random word and allows the user to guess letters until they either correctly guess the word or run out of guesses. The program should display the current state of the hangman as the user makes incorrect guesses.
-
-Countdown Clock: Create a countdown clock that takes a time input from the user in hours, minutes, and seconds and displays the countdown on the webpage. The program should provide an alert when the countdown reaches zero.
-
-Word Scramble Game: Create a program that takes a word input from the user and scrambles the letters. The user must then unscramble the word to win the game. You can use an array of words and a random index variable to generate a new word each time the game is played.
-
-Flashcard App: Create a flashcard app that displays a question and answer pair and allows the user to flip the card to see the answer. You can use an array of objects to store the question and answer pairs and a variable to keep track of the current card being displayed.
+Submit: https://forms.gle/A6hah1H9mHZDqKLK8
