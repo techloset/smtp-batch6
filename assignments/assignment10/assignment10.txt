@@ -1,0 +1,9 @@
+Assignment9
+- design todo app in reactjs
+- Make sure it's responsive
+- try to add logics
+- Upload the reactjs application in github repo submit the link below form
+
+Deadline: 30/07/2023
+
+Submit at: https://forms.gle/FarorteFrrN2SNaXA
