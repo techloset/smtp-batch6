@@ -1,0 +1,9 @@
+Assignment11
+- Design the figma in nextjs
+- Make sure it's responsive
+- Drive link figma: https://drive.google.com/file/d/1ucCSpKn5YMxIFxCKPvBk_7NzVV4hHNv7/view
+- Figma: https://www.figma.com/file/XVYssaKkqtU70Uit2mo0bR/DigitalAgencyLandingPageDesign?type=design&node-id=0-1&mode=design&t=WtLbo78iwd23gHCl-0
+
+Deadline: 31/08/2023
+
+Submit at: https://forms.gle/sCjLEkYvXEsQDWTL6
