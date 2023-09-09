@@ -1,0 +1,7 @@
+Assignment12
+- Github API implementation in nextjs
+- show details of user, show their followers and following list
+
+Deadline: 15/09/2023
+
+Submit at: https://forms.gle/aAMR2Yv92Xzvpbj18
