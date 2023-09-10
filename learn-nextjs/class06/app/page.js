@@ -1,58 +1,58 @@
 "use client"
 import {useState} from "react";
-let myKeyName = "phoneNumber"
-let myKeyValue = "030010012313"
+var anyVar = "Naveeds"
 let obj = {
   target:{
-    name:'sdf',
-    email:"sadf"
+    value:'asdfasdf'
   },
-  [myKeyName]:"Asdf",
-  phone:myKeyValue
+  name:anyVar,
+  [anyVar]: 234324,
 }
 console.log("obj", obj)
-export default function Home() {
-  // var userData = "";
-  // const [userName, setUserName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [phone, setPhone] = useState();
+export default function home() {
+  // var userName = ""
+  // const [userName, setUserName] = useState("")
+  // const [email, setEmail] = useState("")
+  // const [phone, setPhone] = useState()
 
-  const [state, setState] = useState({})
+
+  const [state, setState] = useState({
+    userName: '',
+    email: '',
+    phone:0,
+  })
 
 
   const onChangeHandler = (e)=>{
+    console.log("onChangeHandler",e.target.value);
+    console.log("onChangeHandler",e.target.name);
     setState({
       [e.target.name]: e.target.value
     })
+    
   }
-  // const onChangeHandler = (e)=>{
-  //   console.log( e.target.value);
-  //   // userData = e.target.value
-  //   setUserName(e.target.value)
-  // }
   // const onChangeEmailHandler = (e)=>{
   //   setEmail(e.target.value)
   // }
+  // const onPhoneHandler = (e)=>{
+  //    setPhone(e.target.value)
+  // }
+
+
+
   return (
     <div>
-      <label htmlFor="name">Enter username: </label>
+      <input name="userName" onChange={onChangeHandler} type="text" placeholder="enter your name"/>
+      <input name="email" onChange={onChangeHandler} type="email" placeholder="enter email" />
+      <input name="phone" onChange={onChangeHandler} type="number" placeholder="enter phone" />
+      {/* <input onChange={(e)=>setUserName(e.target.value)} type="text" placeholder="enter your name"/>
+      <input onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="enter email" />
+      <input onChange={(e)=> setPhone(e.target.value)} type="number" placeholder="enter phone" /> */}
+      <hr />
 
-      <input name="userName" onChange={onChangeHandler} id="name" type="text" placeholder="Enter User Name" />
-      <input name="email" type="email" onChange={onChangeHandler} placeholder="Enter email" />
-      <input name="phone" type="number" onChange={onChangeHandler} placeholder="enter phone" />
-      <input name="address" type="text" onChange={onChangeHandler} placeholder="enter address" />
-      {/* <input onChange={(e)=>setUserName(e.target.value)} id="name" type="text" placeholder="Enter User Name" />
-      <input type="email" onChange={(e)=> setEmail(e.target.value)} placeholder="Enter email" />
-      <input type="number" onChange={(e)=>setPhone(e.target.value)} placeholder="enter phone" /> */}
-
-      {/* <p>input data is here: {userName}</p>
-      <p>email is: {email}</p>
-      <p>phone is: {phone}</p> */}
-
-      <p>input data is here: {state.userName}</p>
+      <p>user name is: {state.userName}</p>
       <p>email is: {state.email}</p>
       <p>phone is: {state.phone}</p>
-      <p>address{state.address}</p>
     </div>
   )
 }
