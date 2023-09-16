@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@contentful/rich-text-react-renderer": "^15.17.2",
     "autoprefixer": "10.4.14",
     "axios": "^1.5.0",
     "contentful": "^10.5.2",
