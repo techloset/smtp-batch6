@@ -1,75 +1,67 @@
-import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+"use client"
+import { useFormik } from "formik";
+import * as Yup from "yup";
 
-import client from "@/lib/contentful";
+// Yup schema to validate the form
+const schema = Yup.object().shape({
+  name: Yup.string().required().oneOf(["naveed"]),
+  email: Yup.string().required().email(),
+  password: Yup.string().required().min(7),
+});
+export default function Home() {
+  // Formik hook to handle the form state
+  const formik = useFormik({
+    initialValues: {
+      name: "",
+      email: "",
+      password: "",
+    },
 
-const fetchProducts = async ()=>{
-  const data = await client.getEntries({ content_type: "blogs", limit:5})
-  const newData = data.items.map((item) => {
-    return {
-      thumnail:item.fields.thumnail,
-     title: item.fields.title,
-     title: item.fields.title,
-     description:documentToReactComponents(item.fields.description)
-    }
+    // Pass the Yup schema to validate the form
+    validationSchema: schema,
+
+    // Handle form submission
+    onSubmit: async ({ name, email, password }) => {
+      // Make a request to your backend to store the data
+    },
   });
-  ;
-  console.log("data",newData);
-  return newData
-  // let products =  await fetch("https://fakestoreapi.com/products", { next: { tags: ['fetchProducts'] } })
-  // products = await products.json()
-  // console.log("products",products);
-  // return products
- }
 
-export default async function Home() {
-const products = await fetchProducts()
-
-const loader = false;
-  // useEffect(()=>{
-  //   console.log("use effect products")
-  // },[products])
-
-
- 
+  // Destructure the formik object
+  const { errors, touched, values, handleChange, handleSubmit } = formik;
 
   return (
-    <div>
-      {/* <button onClick={fetchProducts}>fetch products</button> */}
-    <h1>
-      Producrts - Naveed
-    </h1>
-    
-    {products[1].description}
-    {/* {products.length ? 
-    <table border={true} >
-      <tr>
+    <form onSubmit={handleSubmit} method="POST">
+      <label htmlFor="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        value={values.name}
+        onChange={handleChange}
+        id="name"
+      />
+      {errors.name && touched.name && <span>{errors.name}</span>}
 
-        <td>id</td>
-        <td>img</td>
-        <td>title</td>
-        <td>price</td>
-        <td>category</td>
-        <td>description</td>
+      <label htmlFor="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        value={values.email}
+        onChange={handleChange}
+        id="email"
+      />
+      {errors.email && touched.email && <span>{errors.email}</span>}
 
-      </tr>
+      <label htmlFor="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        value={values.password}
+        onChange={handleChange}
+        id="password"
+      />
+      {errors.password && touched.password && <span>{errors.password}</span>}
 
-      {products.map((product)=>{
-        return(
-          <tr>
-
-        <td>{product.id}</td>
-        <td><img width={30} src={product.image} alt="" /></td>
-        <td>{product.title}</td>
-        <td>{product.price}</td>
-        <td>{product.category}</td>
-        <td>{product.description.slice(0, 20)}...</td>
-
-      </tr>
-        )
-      })}
-    </table> : 
-     loader ? <div className="loader"></div> :  <div>No data found</div>
-    } */}
-    </div>
-  )
-}
+      <button type="submit">Submit</button>
+    </form>
+  );
+};
