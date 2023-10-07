@@ -1,3 +1,4 @@
+
 import dbConnect, { db } from "@/config/db"
 import { userModel } from "@/model/users"
 dbConnect()
