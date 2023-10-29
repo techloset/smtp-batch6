@@ -1,0 +1,9 @@
+
+Assignment13
+- design react-native app using below figma
+- https://www.figma.com/file/nERYLgA4VbaNLCczkt2Gbr/Travel-App-UI-Kits-(Community)?type=design&node-id=0-1&mode=design&t=3ugxTnR0xe1BBatj-0
+
+
+Deadline: 5/11/2023
+
+Submit at: 
