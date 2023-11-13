@@ -1,0 +1,16 @@
+
+Assignment14
+- design react-native app picture attach for inventry management system
+- user can create inventry by fields 
+   - id
+   - category
+   - createAt
+   - title
+- user can sort invertry
+- user can see count based on types
+- user can delete inventry
+
+
+Deadline: 19/11/2023
+
+Submit at:
