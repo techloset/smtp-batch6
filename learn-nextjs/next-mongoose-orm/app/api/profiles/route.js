@@ -5,10 +5,14 @@ dbConnect();
 
 export const GET =async (req, route) => {
        try {
-        const data = userModel.find()
+              //  const data = await userModel.create()
+               //  const data = await userModel.createMany()
+        const data = await userModel.find()
+        console.log("data",data)
         return NextResponse.json({ message: "success",users:data })
 
        } catch (error) {
+        console.log("error",error);
         return NextResponse.json({ message: "error",error })
        }
     
