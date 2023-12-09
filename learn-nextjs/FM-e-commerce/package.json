@@ -1,0 +1,36 @@
+{
+  "name": "e-commerceui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.6.0",
+    "chart.js": "^4.4.0",
+    "classnames": "^2.3.2",
+    "next": "14.0.3",
+    "next-auth": "^4.24.5",
+    "next-themes": "^0.2.1",
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^4.12.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.2",
+    "@types/react": "18.2.41",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "prisma": "^5.6.0",
+    "tailwindcss": "^3.3.0"
+  }
+}

@@ -1,0 +1,11 @@
+.article-card:hover {
+    transform: translateY(-2px);
+   
+    box-shadow: 0 14px 28px rgba(75, 85, 99, 0.25), 0 10px 10px rgba(75, 85, 99, 0.22);
+  }
+  
+  .article-card .content {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+    padding: 30px 20px 0 20px;
+  }
+  
